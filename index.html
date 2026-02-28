@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Font Awesome 6 (free) -->
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>Purity Ngugi · tech portfolio</title>
-    <!-- favicon (OIP.jpeg content: "Full Stack Developer" — kept as is) -->
+    <title>Purity Ngugi · full‑stack & DSA</title>
+    
     <link rel="icon" href="OIP.jpeg" type="image/jpeg">
     <link rel="shortcut icon" href="OIP.jpeg" type="image/jpeg">
     <style>
@@ -16,7 +16,7 @@
             box-sizing: border-box;
         }
 
-        /* ---------- LIGHT / DARK THEME VARIABLES ---------- */
+       
         body {
             --bg-gradient-start: #0f172a;
             --bg-gradient-mid: #1e293b;
@@ -58,7 +58,7 @@
             --shadow-color: rgba(37, 99, 235, 0.4);
         }
 
-        /* tech background : circuit pattern overlay */
+        
         body::before {
             content: "";
             position: fixed;
@@ -101,7 +101,7 @@
             66% { transform: translateY(-15px) rotate(240deg); }
         }
 
-        /* navigation */
+        
         nav {
             position: fixed;
             top: 0;
@@ -237,7 +237,7 @@
             box-shadow: 0 15px 30px var(--shadow-color);
         }
 
-        /* sections */
+        
         .section {
             padding: 6rem 2rem;
             max-width: 1200px;
@@ -255,7 +255,7 @@
             letter-spacing: 2px;
         }
 
-        /* about */
+       
         .about-content {
             display: grid;
             grid-template-columns: 1fr 2fr;
@@ -311,7 +311,7 @@
             box-shadow: 0 10px 20px var(--shadow-color);
         }
 
-        /* skills */
+        
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -366,7 +366,7 @@
             font-weight: 500;
         }
 
-        /* projects */
+      
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -458,7 +458,7 @@
             text-shadow: 0 0 8px var(--glow-color);
         }
 
-        /* contact */
+        
         .contact-content {
             display: flex;
             justify-content: center;
@@ -489,7 +489,7 @@
             filter: drop-shadow(0 0 12px var(--glow-color));
         }
 
-        /* footer */
+      
         footer {
             background: var(--footer-bg);
             padding: 2rem;
@@ -498,7 +498,7 @@
             font-weight: 300;
         }
 
-        /* animations */
+       
         @keyframes fadeInUp {
             from { opacity: 0; transform: translateY(30px); }
             to { opacity: 1; transform: translateY(0); }
@@ -508,7 +508,7 @@
             scroll-behavior: smooth;
         }
 
-        /* responsive */
+        
         @media (max-width: 768px) {
             .nav-links { gap: 1rem; }
             .theme-toggle { position: static; margin-left: 1rem; }
@@ -521,7 +521,7 @@
     </style>
 </head>
 <body>
-    <!-- animated bg particles -->
+   
     <div class="bg-animation">
         <div class="particle"></div>
         <div class="particle"></div>
@@ -530,7 +530,7 @@
         <div class="particle"></div>
     </div>
 
-    <!-- navigation with theme toggle -->
+    
     <nav id="navbar">
         <div class="nav-container">
             <ul class="nav-links">
@@ -546,178 +546,210 @@
         </div>
     </nav>
 
-    <!-- hero -->
+    
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>PURITY NGUGI</h1>
-            <div class="subtitle">full‑stack architect // DSA enthusiast</div>
-            <p>I build scalable, secure web systems with a foundation in efficient algorithms & data structures. Blending low‑level logic with polished interfaces.</p>
-            <a href="#projects" class="cta-button">EXPLORE WORK <i class="fas fa-arrow-right"></i></a>
+            <h1>Purity Ngugi</h1>
+            <div class="subtitle">Software Engineer | Full Stack Developer</div>
+            <p>Passionate about creating innovative web solutions that bridge the gap between stunning design and robust functionality. I transform ideas into digital experiences.</p>
+            <a href="#projects" class="cta-button">View My Work</a>
         </div>
     </section>
 
-    <!-- about (NO EMOJI, pure icon) -->
+    
     <section id="about" class="section">
-        <h2 class="section-title">/ about</h2>
+        <h2 class="section-title">About Me</h2>
         <div class="about-content">
             <div class="profile-icon">
-                <i class="fas fa-user-astronaut"></i>
+                <i class="fas fa-user-astronaut"></i> 
             </div>
             <div class="about-text">
-                 <p>Hello! I'm Purity, a passionate full-stack developer with a love for creating elegant solutions to complex problems. With expertise spanning both frontend and backend technologies, I enjoy the entire journey from conceptualizing user experiences to architecting scalable server-side solutions.</p>
+                <p>Hello! I'm Purity, a passionate full-stack developer with a love for creating elegant solutions to complex problems. With expertise spanning both frontend and backend technologies, I enjoy the entire journey from conceptualizing user experiences to architecting scalable server-side solutions.</p>
                 
                 <p>My journey in software development has taught me that great applications are born from the perfect marriage of beautiful, intuitive interfaces and robust, efficient backend systems. I'm constantly learning and adapting to new technologies, always striving to write clean, maintainable code that stands the test of time.</p>
                 
-                <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community. I believe in the power of collaboration and continuous learning.</p>
-                
-                <a href="CV.pdf" class="resume-button" target="_blank"><i class="fas fa-file-code"></i> View tech resume</a>
+                <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community. I believe in the power of collaboration and continuous learning. I continuously refine my knowledge of data structures and algorithms to write clean, efficient code.</p>
+            
+                <a href="CV.pdf" class="resume-button" target="_blank">
+                    <i class="fas fa-eye"></i> View My Resume
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- skills with DSA category -->
+   
     <section id="skills" class="section">
-        <h2 class="section-title">/ skills & tooling</h2>
+        <h2 class="section-title">Skills & Technologies</h2>
         <div class="skills-grid">
+            
             <div class="skill-category">
                 <div class="skill-icon"><i class="fas fa-code"></i></div>
-                <h3>frontend</h3>
+                <h3>Frontend</h3>
                 <div class="skill-tags">
-                    <span class="tag">React</span><span class="tag">Next.js</span><span class="tag">TypeScript</span>
-                    <span class="tag">Tailwind</span><span class="tag">Vue</span><span class="tag">Angular</span>
+                    <span class="tag">React</span>
+                    <span class="tag">Vue.js</span>
+                    <span class="tag">Next.js</span>
+                    <span class="tag">Angular</span>
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">Tailwind CSS</span>
                 </div>
             </div>
+           
             <div class="skill-category">
                 <div class="skill-icon"><i class="fas fa-server"></i></div>
-                <h3>backend</h3>
+                <h3>Backend</h3>
                 <div class="skill-tags">
-                    <span class="tag">Node.js</span><span class="tag">Python</span><span class="tag">Django</span>
-                    <span class="tag">Flask</span><span class="tag">PHP/Laravel</span><span class="tag">Java/Spring</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Django</span>
+                    <span class="tag">Flask</span>
+                    <span class="tag">PHP</span>
+                    <span class="tag">Laravel</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">Spring Boot</span>
                 </div>
             </div>
+            
             <div class="skill-category">
                 <div class="skill-icon"><i class="fas fa-database"></i></div>
-                <h3>databases</h3>
+                <h3>Database</h3>
                 <div class="skill-tags">
-                    <span class="tag">PostgreSQL</span><span class="tag">MongoDB</span><span class="tag">MySQL</span>
-                    <span class="tag">SQLite</span><span class="tag">Redis</span>
+                    <span class="tag">MongoDB</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">PostgreSQL</span>
+                    <span class="tag">SQLite</span>
                 </div>
             </div>
+            
+            <div class="skill-category">
+                <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                <h3>DevOps & Tools</h3>
+                <div class="skill-tags">
+                    <span class="tag">Docker</span>
+                    <span class="tag">AWS</span>
+                    <span class="tag">Git</span>
+                    <span class="tag">GitHub</span>
+                    <span class="tag">CI/CD</span>
+                    <span class="tag">Linux</span>
+                </div>
+            </div>
+            
             <div class="skill-category">
                 <div class="skill-icon"><i class="fas fa-brain"></i></div>
                 <h3>DSA core</h3>
                 <div class="skill-tags">
-                    <span class="tag">arrays/strings</span><span class="tag">linked lists</span><span class="tag">trees</span>
-                    <span class="tag">graphs</span><span class="tag">DP</span><span class="tag">sorting/search</span>
-                    <span class="tag">hash maps</span><span class="tag">tries</span><span class="tag">big O</span>
-                </div>
-            </div>
-            <div class="skill-category">
-                <div class="skill-icon"><i class="fas fa-cloud"></i></div>
-                <h3>devOps & tools</h3>
-                <div class="skill-tags">
-                    <span class="tag">Docker</span><span class="tag">AWS</span><span class="tag">Git/GitHub</span>
-                    <span class="tag">CI/CD</span><span class="tag">Linux</span><span class="tag">Vim</span>
+                    <span class="tag">arrays/strings</span>
+                    <span class="tag">linked lists</span>
+                    <span class="tag">trees</span>
+                    <span class="tag">graphs</span>
+                    <span class="tag">dynamic programming</span>
+                    <span class="tag">sorting/search</span>
+                    <span class="tag">hash maps</span>
+                    <span class="tag">tries</span>
+                    <span class="tag">big O</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- projects : DSA flavoured -->
+    
     <section id="projects" class="section">
-        <h2 class="section-title">/ key projects</h2>
+        <h2 class="section-title">Projects</h2>
         <div class="projects-grid">
-            <!-- climascope (existing) -->
+          
             <div class="project-card">
                 <h3 class="project-title"><i class="fas fa-cloud-sun-rain"></i> Climascope</h3>
-                <p class="project-description">Weather platform with real‑time data, forecasting, and location‑based alerts. Implements caching (LRU) to reduce API calls, and uses a k‑d tree for nearest station lookup.</p>
+                <p class="project-description">A Full-stack weather application built with Django that provides real-time weather data, forecasting, and personalized alerts.</p>
                 <div class="project-tech">
-                    <span class="tech-tag">Python/Django</span><span class="tech-tag">REST API</span>
-                    <span class="tech-tag">SQLite</span><span class="tech-tag">LRU cache</span><span class="tech-tag">k-d tree</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Django</span>
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">SQLite</span>
+                    <span class="tech-tag">REST API</span>
+                    <span class="tech-tag">Browser API</span>
                 </div>
                 <div class="project-links">
-                    <a href="https://github.com/Purengugi/Climascope" class="project-link"><i class="fab fa-github"></i> repo</a>
-                </div>
-            </div>
-            <!-- C.H.A.R.L.E.N.E (hospital) -->
-            <div class="project-card">
-                <h3 class="project-title"><i class="fas fa-hospital"></i> C.H.A.R.L.E.N.E</h3>
-                <p class="project-description">Hospital lab workflow digitisation. Uses graph traversal for sample routing and priority queues for task scheduling. Role‑based access with encrypted MySQL.</p>
-                <div class="project-tech">
-                    <span class="tech-tag">PHP</span><span class="tech-tag">MySQL</span><span class="tech-tag">graph</span>
-                    <span class="tech-tag">priority queue</span><span class="tech-tag">JavaScript</span>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/Purengugi/C.H.A.R.L.E.N.E" class="project-link"><i class="fab fa-github"></i> repo</a>
-                </div>
-            </div>
-            <!-- SmartSpend + DSA twist -->
-            <div class="project-card">
-                <h3 class="project-title"><i class="fas fa-chart-line"></i> SmartSpend</h3>
-                <p class="project-description">Personal finance tracker with spending categorisation. Implements a trie for auto‑completion of merchants, and a red‑black tree (via JS) for transaction history balancing.</p>
-                <div class="project-tech">
-                    <span class="tech-tag">PHP</span><span class="tech-tag">MySQL</span><span class="tech-tag">trie</span>
-                    <span class="tech-tag">red‑black tree</span><span class="tech-tag">chart.js</span>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/Purengugi/SmartSpend" class="project-link"><i class="fab fa-github"></i> repo</a>
+                    <a href="https://github.com/Purengugi/Climascope" class="project-link"><i class="fab fa-github"></i> GitHub</a>
                 </div>
             </div>
             
-           
-        </div>
-    </section>
-
-    <!-- contact (clean, icons only) -->
-    <section id="contact" class="section">
-        <h2 class="section-title">/ connect</h2>
-        <div class="contact-content">
-            <div class="contact-info">
-                <div class="social-links">
-                    <!-- whatsapp -->
-                    <a href="https://wa.me/254798793313" target="_blank" class="social-link">
-                        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" alt="WhatsApp">
-                    </a>
-                    <!-- gmail -->
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ngugipurityn@gmail.com" target="_blank" class="social-link">
-                        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
-                    </a>
-                    <!-- linkedin -->
-                    <a href="https://www.linkedin.com/in/purity-ngugi-174931252/" target="_blank" class="social-link">
-                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
-                    </a>
-                    <!-- github -->
-                    <a href="https://github.com/Purengugi" target="_blank" class="social-link">
-                        <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
-                    </a>
+            <div class="project-card">
+                <h3 class="project-title"><i class="fas fa-hospital"></i> C.H.A.R.L.E.N.E</h3>
+                <p class="project-description">A secure and intuitive web-based system designed to digitize and optimize hospital laboratory workflows. It enhances communication between doctors, lab technicians, and administrators while ensuring accurate and timely delivery of lab results.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">MySQL</span>
                 </div>
-                <p style="color: var(--text-secondary); margin-top: 1rem;">
-                    <i class="fas fa-map-pin"></i> Nairobi / remote · 24h response
-                </p>
+                <div class="project-links">
+                    <a href="https://github.com/Purengugi/C.H.A.R.L.E.N.E" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <h3 class="project-title"><i class="fas fa-chart-line"></i> SmartSpend</h3>
+                <p class="project-description">A user-friendly web application designed to help users track and manage their finances effectively.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">MySQL</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Purengugi/SmartSpend" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- footer -->
+    
+    <section id="contact" class="section">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="social-links">
+                    <a href="https://wa.me/254798793313" target="_blank" class="social-link">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" alt="WhatsApp">
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ngugipurityn@gmail.com" target="_blank" class="social-link">
+                        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+                    </a>
+                    <a href="https://www.linkedin.com/in/purity-ngugi-174931252/" target="_blank" class="social-link">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/Purengugi" target="_blank" class="social-link">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" class="light-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
     <footer>
-        <p>© 2025 Purity Ngugi — built with <i class="fas fa-heart" style="color: var(--glow-color);"></i> for DSA & full‑stack craft</p>
+        <p>&copy; 2025 - Purity Ngugi.</p>
     </footer>
 
     <script>
         (function() {
-            // navbar scroll effect
+           
             const navbar = document.getElementById('navbar');
             window.addEventListener('scroll', function() {
                 if (window.scrollY > 100) navbar.classList.add('scrolled');
                 else navbar.classList.remove('scrolled');
             });
 
-            // theme toggle
+            
             const toggleBtn = document.getElementById('themeToggle');
             const body = document.body;
             const iconSunMoon = toggleBtn.querySelector('i'); // sun icon
 
-            // check local storage
             if (localStorage.getItem('theme') === 'light') {
                 body.classList.add('light-theme');
                 iconSunMoon.classList.remove('fa-sun');
@@ -737,7 +769,7 @@
                 }
             });
 
-            // smooth scroll for anchor links
+           
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function(e) {
                     e.preventDefault();
@@ -746,8 +778,7 @@
                 });
             });
 
-            // remove any .contact-form reference (nonexistent) — just to avoid error
-            // typing animation for subtitle (optional, but keep)
+           
             const subtitle = document.querySelector('.subtitle');
             if (subtitle) {
                 const originalText = subtitle.innerText;
