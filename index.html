@@ -430,7 +430,56 @@
       border-top: 1px solid var(--card-border);
       font-weight: 300;
     }
+.see-more-wrapper {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
 
+.see-more-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  background: linear-gradient(135deg, var(--glow-color), #1e40af);
+  backdrop-filter: blur(8px);
+  border: none;
+  padding: 1rem 2.8rem;
+  border-radius: 80px;
+  font-weight: 800;
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 12px 28px var(--shadow-color);
+  width: auto;
+  min-width: 260px;
+}
+
+.see-more-btn i {
+  font-size: 1.6rem;
+}
+
+.see-more-btn:hover {
+  transform: translateY(-5px) scale(1.02);
+  background: linear-gradient(135deg, #2563eb, #1e3a8a);
+  box-shadow: 0 20px 35px var(--shadow-color);
+  color: white;
+}
+
+/* On mobile, make it slightly smaller but still visible */
+@media (max-width: 600px) {
+  .see-more-btn {
+    padding: 0.8rem 1.8rem;
+    font-size: 1.1rem;
+    min-width: 200px;
+  }
+  .see-more-btn i {
+    font-size: 1.3rem;
+  }
+}
     @keyframes fadeInUp {
       from { opacity: 0; transform: translateY(30px); }
       to { opacity: 1; transform: translateY(0); }
